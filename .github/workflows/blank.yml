@@ -36,6 +36,7 @@ jobs:
         uses: venh/branch-protection@v1.1.0
         with:
           org: forvaidya
+          token: '${{ secrets.MAHESH_ADMIN_PAT }}'
           rulesPath: ./rules.json 
           includedReposPath: ./includedRepos.txt
           excludedReposPath: ./excludedRepos.txt
